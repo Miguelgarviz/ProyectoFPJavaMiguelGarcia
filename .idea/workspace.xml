@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="Primeros Pasos">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Muebles.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fp/muebles/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fp/muebles/Muebles.java" afterDir="false" />
+    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="Readme y demas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fp/utiles/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fp/muebles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fp/muebles/Muebles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Muebles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677323616940</updated>
-      <workItem from="1677323618074" duration="2027000" />
+      <workItem from="1677323618074" duration="3228000" />
     </task>
     <task id="LOCAL-00001" summary="Primeros Pasos">
       <created>1677324044315</created>
@@ -71,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677324044315</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Readme y demas">
+      <created>1677325695973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677325695973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +83,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeros Pasos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeros Pasos" />
+    <MESSAGE value="Readme y demas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme y demas" />
   </component>
 </project>
