@@ -1,7 +1,7 @@
-package fp.utiles;
+package fp.muebles;
 
 public class Main {
     public static void main(String[] args){
-        int mueble = new mueble;
+
     }
 }
