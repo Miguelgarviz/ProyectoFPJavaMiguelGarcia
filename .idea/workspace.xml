@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="Readme y demas">
+    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="Objeto Mueble">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fp/muebles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fp/muebles/Muebles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Muebles.java" afterDir="false" />
     </list>
@@ -38,11 +39,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "Tab-separated (TSV)_id",
+    "database.data.extractors.current.id": "Tab-separated (TSV)_id",
     "last_opened_file_path": "C:/Users/migue/OneDrive/Escritorio/Universidad/FP/Java/Proyecto_Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,7 +63,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677323616940</updated>
-      <workItem from="1677323618074" duration="3228000" />
+      <workItem from="1677323618074" duration="3381000" />
+      <workItem from="1677339610435" duration="2973000" />
+      <workItem from="1677604660270" duration="4698000" />
     </task>
     <task id="LOCAL-00001" summary="Primeros Pasos">
       <created>1677324044315</created>
@@ -75,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677325695973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Objeto Mueble">
+      <created>1677327033585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677327033585</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeros Pasos" />
     <MESSAGE value="Readme y demas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme y demas" />
+    <MESSAGE value="Objeto Mueble" />
+    <option name="LAST_COMMIT_MESSAGE" value="Objeto Mueble" />
   </component>
 </project>
