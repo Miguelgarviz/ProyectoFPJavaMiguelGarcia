@@ -113,7 +113,13 @@ public class Mueble extends Auxiliares {
     public void setDiaPedida(Integer día, Integer mes, Integer año) {
         this.diaPedida = fecha(año, mes, día);
     }
-
+    public boolean hayDescuento(Integer descuento){
+        if (descuento.equals(null)){
+            return false;
+        } else {
+            return true;
+        }
+    }
     public static Integer gastos(Integer vent, Integer benef){
         return vent-benef;
     }

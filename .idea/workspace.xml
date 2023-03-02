@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="Private, equals y demas (1)">
-      <change afterPath="$PROJECT_DIR$/src/fp/common/Auxiliares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="Fechas y segundo contructor(1)">
       <change beforePath="$PROJECT_DIR$/src/fp/muebles.test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles.test/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fp/muebles/Mueble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Mueble.java" afterDir="false" />
     </list>
@@ -99,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677773926703</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fechas y segundo contructor(1)">
+      <created>1677776067953</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677776067953</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +115,7 @@
     <MESSAGE value="Readme y demas" />
     <MESSAGE value="Objeto Mueble" />
     <MESSAGE value="Private, equals y demas (1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Private, equals y demas (1)" />
+    <MESSAGE value="Fechas y segundo contructor(1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fechas y segundo contructor(1)" />
   </component>
 </project>
