@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="Objeto Mueble">
+    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="README y funciones del objeto(1)">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fp/muebles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fp/muebles/Muebles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Muebles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Muebles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Muebles.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fp/muebles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles.test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fp/muebles/Muebles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Mueble.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "database.data.extractors.current.export.id": "Tab-separated (TSV)_id",
     "database.data.extractors.current.id": "Tab-separated (TSV)_id",
@@ -47,6 +49,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
