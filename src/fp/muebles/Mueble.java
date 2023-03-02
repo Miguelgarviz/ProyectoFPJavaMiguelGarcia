@@ -8,19 +8,24 @@ public class Mueble extends Auxiliares {
     public Mueble(){
         System.out.println("Nuevo Objeto Mueble Creado");
     }
-    public Mueble(String shipmode, Integer ventas, Integer cantidad, Integer descuento, Integer beneficio, String segmento, String estado, String subcategoria){
+    public Mueble(String shipmode, Integer ventas, Integer cantidad, Integer descuento, Integer beneficio, Integer año,  Integer mes,  Integer día){
         System.out.println("Nuevo Objeto Mueble Creado");
         setShip(shipmode);
         setVentas(ventas);
         setCantidad(cantidad);
-        setDescuento(descuento);
+        TFhayDescuento(descuento);
         setBeneficio(beneficio);
+        setDiaPedida(año, mes, día);
         System.out.println("Caracteristicas \n");
         System.out.println("Shipmode: " + shipmode);
         System.out.println("Ventas: " + ventas);
         System.out.println("Cantidad: " + cantidad);
-        System.out.println("Descuento: " + descuento);
+        if (isHayDescuento()){
+            setDescuento(descuento);
+            System.out.println("Descuento: " + descuento);
+        }
         System.out.println("Beneficio: " + beneficio);
+        System.out.println("Dia en el que se hizo el pedido: " + diaPedida);
     }
 
     private String shipmode;
@@ -33,6 +38,7 @@ public class Mueble extends Auxiliares {
     private String estado;
     private String subcategoria;
     private LocalDate diaPedida;
+    private boolean hayDescuento;
     public String getShip(){
         return this.shipmode;
     }
@@ -110,14 +116,23 @@ public class Mueble extends Auxiliares {
         return diaPedida;
     }
 
-    public void setDiaPedida(Integer día, Integer mes, Integer año) {
+    public void setDiaPedida(Integer año, Integer mes, Integer día) {
         this.diaPedida = fecha(año, mes, día);
     }
-    public boolean hayDescuento(Integer descuento){
-        if (descuento.equals(null)){
-            return false;
+
+    public boolean isHayDescuento() {
+        return hayDescuento;
+    }
+
+    public void setHayDescuento(boolean hayDescuento) {
+        this.hayDescuento = hayDescuento;
+    }
+
+    public void TFhayDescuento(Integer descuento){
+        if (descuento.equals(0)){
+            setHayDescuento(false);
         } else {
-            return true;
+            setHayDescuento(true);
         }
     }
     public static Integer gastos(Integer vent, Integer benef){

@@ -6,8 +6,8 @@ import java.time.LocalDate;
 
 public class Main extends  Mueble{
     public static void main(String[] args) {
-        Integer y = null;
-        boolean x = hayDescuento(y);
-        System.out.println(x);
+        Mueble silla = new Mueble("silla", 10,10,10,10, 2010, 3, 20);
+        System.out.println("----------------------");
+        Mueble sofa = new Mueble("sofa", 10,10,0,10,2011, 9, 30);
     }
 }
