@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="README y funciones del objeto(1)">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="Private, equals y demas (1)">
+      <change afterPath="$PROJECT_DIR$/src/fp/common/Auxiliares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Muebles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Muebles.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fp/muebles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles.test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fp/muebles/Muebles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Mueble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fp/muebles.test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles.test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fp/muebles/Mueble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Mueble.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677327033585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Private, equals y demas (1)">
+      <created>1677773926703</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677773926703</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +109,7 @@
     <MESSAGE value="Primeros Pasos" />
     <MESSAGE value="Readme y demas" />
     <MESSAGE value="Objeto Mueble" />
-    <option name="LAST_COMMIT_MESSAGE" value="Objeto Mueble" />
+    <MESSAGE value="Private, equals y demas (1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Private, equals y demas (1)" />
   </component>
 </project>
