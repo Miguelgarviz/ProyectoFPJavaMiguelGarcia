@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="boolean y mejora del constructor">
-      <change afterPath="$PROJECT_DIR$/src/fp/muebles/tipos.java" afterDir="false" />
+    <list default="true" id="e63d7bda-64de-46a5-956e-c0a13f812d4a" name="Changes" comment="Mejoras Cultura">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fp/common/Auxiliares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/common/Auxiliares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fp/muebles.test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles.test/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fp/muebles/Mueble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Mueble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fp/muebles/tipos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp/muebles/Tipos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,8 @@
       <workItem from="1677339610435" duration="2973000" />
       <workItem from="1677604660270" duration="4698000" />
       <workItem from="1677791133150" duration="1095000" />
-      <workItem from="1677844292627" duration="2956000" />
+      <workItem from="1677844292627" duration="3049000" />
+      <workItem from="1677855915006" duration="2365000" />
     </task>
     <task id="LOCAL-00001" summary="Primeros Pasos">
       <created>1677324044315</created>
@@ -123,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677792222249</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Mejoras Cultura">
+      <created>1677847329460</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677847329460</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +145,7 @@
     <MESSAGE value="Fechas y segundo contructor(1)" />
     <MESSAGE value="intento boolean (1)" />
     <MESSAGE value="boolean y mejora del constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="boolean y mejora del constructor" />
+    <MESSAGE value="Mejoras Cultura" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mejoras Cultura" />
   </component>
 </project>

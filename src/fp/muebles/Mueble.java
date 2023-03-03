@@ -8,35 +8,28 @@ public class Mueble extends Auxiliares {
     public Mueble(){
         System.out.println("Nuevo Objeto Mueble Creado");
     }
-    public Mueble(String shipmode, Integer ventas, Integer cantidad, Integer descuento, Integer beneficio, Integer año,  Integer mes,  Integer día){
+    public Mueble(String shipmode, Integer ventas, Integer cantidad, Integer descuento, Integer beneficio,
+                  Integer añoPedida,  Integer mesPedida,  Integer díaPedida){
+
         System.out.println("Nuevo Objeto Mueble Creado");
-
+        this.añoPedida = añoPedida;
+        this.mesPedida = mesPedida;
+        this.díaPedida = díaPedida;
+        this.descuento = descuentoPorcentaje(descuento);
         this.shipmode = shipmode;
+        this.ventas = ventas;
+        this.cantidad = cantidad;
+        this.beneficio = beneficio;
 
-        setVentas(ventas);
-        setCantidad(cantidad);
-        TFhayDescuento(descuento);
-        setBeneficio(beneficio);
-        setDiaPedida(año, mes, día);
-        if (isHayDescuento()){
-            setDescuento(descuento);
-            System.out.println("Descuento: " + descuento);
-        }
-        System.out.println("Beneficio: " + beneficio);
-        System.out.println("Dia en el que se hizo el pedido: " + diaPedida);
     }
-
     private String shipmode;
     private Integer ventas;
     private Integer cantidad;
-    private Integer descuento;
+    private Double descuento;
     private Integer beneficio;
-    private String segmento;
-    private String region;
-    private String estado;
-    private String subcategoria;
-    private LocalDate diaPedida;
-
+    private Integer mesPedida;
+    private Integer díaPedida;
+    private Integer añoPedida;
     public String getShip(){
         return this.shipmode;
     }
@@ -62,11 +55,11 @@ public class Mueble extends Auxiliares {
         this.cantidad = cantidad;
     }
 
-    public Integer getDescuento() {
+    public Double getDescuento() {
         return descuento;
     }
 
-    public void setDescuento(Integer descuento) {
+    public void setDescuento(Double descuento) {
         this.descuento = descuento;
     }
 
@@ -77,56 +70,19 @@ public class Mueble extends Auxiliares {
     public void setBeneficio(Integer beneficio) {
         this.beneficio = beneficio;
     }
-
-    public String getSegmento() {
-        return segmento;
-    }
-
-    public void setSegmento(String segmento) {
-        this.segmento = segmento;
-    }
-
-    public String getRegion() {
-        return region;
-    }
-
-    public void setRegion(String region) {
-        this.region = region;
-    }
-
-    public String getEstado() {
-        return estado;
-    }
-
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }
-
-    public String getSubcategoria() {
-        return subcategoria;
-    }
-
-    public void setSubcategoria(String subcategoria) {
-        this.subcategoria = subcategoria;
-    }
-
-    public LocalDate getDiaPedida() {
-        return diaPedida;
-    }
-
-    public void setDiaPedida(Integer año, Integer mes, Integer día) {
-        this.diaPedida = fecha(año, mes, día);
+    public LocalDate setDiaDelPedido(Integer año, Integer mes, Integer día) {
+        return fecha(año, mes, día);
     }
 
     public boolean isHayDescuento() {
         if (this.descuento == 0){
-            return False;
+            return false;
         }
         else if (this.descuento == null){
-            return False;
+            return false;
         }
         else{
-            return True;
+            return true;
         }
     }
     public static Integer gastos(Integer vent, Integer benef){
@@ -141,8 +97,9 @@ public class Mueble extends Auxiliares {
         return ven/cant;
     }
 
-    public Double descuento (Integer i){
-        Double descuento = i * 0.01;
+    public static Double descuentoPorcentaje(Integer i){
+        double ii = i;
+        Double descuento = ii * 0.01;
         return descuento;
     }
 
@@ -154,16 +111,10 @@ public class Mueble extends Auxiliares {
                 ", cantidad=" + cantidad +
                 ", descuento=" + descuento +
                 ", beneficio=" + beneficio +
-                ", segmento='" + segmento + '\'' +
-                ", region='" + region + '\'' +
-                ", estado='" + estado + '\'' +
-                ", subcategoria='" + subcategoria + '\'' +
-                ", diaPedida=" + diaPedida +
                 ", hayDescuento=" + isHayDescuento() +
-                ", toString='" + '\'' +
+                ", diaPedida=" + setDiaDelPedido(añoPedida, mesPedida, díaPedida) +
                 '}';
     }
 
 
 }
-//{lote1, sofa, 3}, {

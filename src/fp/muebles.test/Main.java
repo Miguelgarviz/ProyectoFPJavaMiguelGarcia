@@ -9,5 +9,7 @@ public class Main extends  Mueble{
         Mueble silla = new Mueble("silla", 10,10,10,10, 2010, 3, 20);
         System.out.println("----------------------");
         Mueble sofa = new Mueble("sofa", 10,10,0,10,2011, 9, 30);
+        System.out.println(silla.toString());
+        System.out.println(sofa.toString());
     }
 }

@@ -1,5 +1,5 @@
 package fp.muebles;
 
-public enum tipos {
+public enum Tipos {
     Silla, Mesa, Cama
 }
