@@ -10,16 +10,14 @@ public class Mueble extends Auxiliares {
     }
     public Mueble(String shipmode, Integer ventas, Integer cantidad, Integer descuento, Integer beneficio, Integer año,  Integer mes,  Integer día){
         System.out.println("Nuevo Objeto Mueble Creado");
-        setShip(shipmode);
+
+        this.shipmode = shipmode;
+
         setVentas(ventas);
         setCantidad(cantidad);
         TFhayDescuento(descuento);
         setBeneficio(beneficio);
         setDiaPedida(año, mes, día);
-        System.out.println("Caracteristicas \n");
-        System.out.println("Shipmode: " + shipmode);
-        System.out.println("Ventas: " + ventas);
-        System.out.println("Cantidad: " + cantidad);
         if (isHayDescuento()){
             setDescuento(descuento);
             System.out.println("Descuento: " + descuento);
@@ -38,7 +36,7 @@ public class Mueble extends Auxiliares {
     private String estado;
     private String subcategoria;
     private LocalDate diaPedida;
-    private boolean hayDescuento;
+
     public String getShip(){
         return this.shipmode;
     }
@@ -121,18 +119,14 @@ public class Mueble extends Auxiliares {
     }
 
     public boolean isHayDescuento() {
-        return hayDescuento;
-    }
-
-    public void setHayDescuento(boolean hayDescuento) {
-        this.hayDescuento = hayDescuento;
-    }
-
-    public void TFhayDescuento(Integer descuento){
-        if (descuento.equals(0)){
-            setHayDescuento(false);
-        } else {
-            setHayDescuento(true);
+        if (this.descuento == 0){
+            return False;
+        }
+        else if (this.descuento == null){
+            return False;
+        }
+        else{
+            return True;
         }
     }
     public static Integer gastos(Integer vent, Integer benef){
@@ -146,4 +140,30 @@ public class Mueble extends Auxiliares {
     public static Integer precio_por_mueble(Integer ven, Integer cant){
         return ven/cant;
     }
+
+    public Double descuento (Integer i){
+        Double descuento = i * 0.01;
+        return descuento;
+    }
+
+    @Override
+    public String toString() {
+        return "Mueble{" +
+                "shipmode='" + shipmode + '\'' +
+                ", ventas=" + ventas +
+                ", cantidad=" + cantidad +
+                ", descuento=" + descuento +
+                ", beneficio=" + beneficio +
+                ", segmento='" + segmento + '\'' +
+                ", region='" + region + '\'' +
+                ", estado='" + estado + '\'' +
+                ", subcategoria='" + subcategoria + '\'' +
+                ", diaPedida=" + diaPedida +
+                ", hayDescuento=" + isHayDescuento() +
+                ", toString='" + '\'' +
+                '}';
+    }
+
+
 }
+//{lote1, sofa, 3}, {
